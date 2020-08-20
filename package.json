@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "In this project, as a way of practicing DOM manipulation, i dynamically render a simple restaurant homepage by using JavaScript alone to generate the entire contents of the website!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhillipUg/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "phillip musiime <phillipmusiime@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhillipUg/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/PhillipUg/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
