@@ -34,7 +34,7 @@ In this project, as a way of practicing DOM manipulation, i dynamically render a
     This project is part of the Microverse curriculum and is done as an exercise in the Javascript section.
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/PhillipUg/restaurant-page/4c8618cdd357352c0e2a1abfe112a9b068bf1d3c/index.html">View Demo</a>
+    <a href="https://rawcdn.githack.com/PhillipUg/restaurant-page/tree/restaurant-feature">View Demo</a>
     ·
     <a href="https://github.com/PhillipUg/restaurant-page/issues">Report Bug</a>
     ·
@@ -51,7 +51,6 @@ In this project, as a way of practicing DOM manipulation, i dynamically render a
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
-
 
 <br>
 <br>
@@ -89,12 +88,10 @@ This project was built using these technologies.
 * JavaScript
 * Webpack
 * Chrome Dev Tools
-<br>
 
 ## Live Version
 To try it live [click here](https://rawcdn.githack.com/PhillipUg/restaurant-page/tree/restaurant-feature)
 
-<br>
 <!-- CONTACT -->
 
 ## Contact
@@ -121,8 +118,8 @@ To try it live [click here](https://rawcdn.githack.com/PhillipUg/restaurant-page
 [stars-url]: https://github.com/PhillipUg/restaurant-page/stargazers
 [issues-shield]: https://img.shields.io/github/issues/PhillipUg/restaurant-page.svg?style=flat-square
 [issues-url]: https://github.com/PhillipUg/restaurant-page/issues
-[product-screenshot]: images/page1.png
-[product-screenshot2]: images/page2.png
+[product-screenshot]: dist/images/page1.png
+[product-screenshot2]: dist/images/page2.png
 
 
 ## 📝 License
