@@ -1,6 +1,5 @@
 const createNav = () => {
-
-  let tabsArr = ['HOME', 'MENU', 'CONTACT &nbsp;&nbsp;&nbsp; US'];
+  const tabsArr = ['HOME', 'MENU', 'CONTACT &nbsp;&nbsp;&nbsp; US'];
 
   const navbar = document.createElement('nav');
   navbar.classList.add('navbar');
