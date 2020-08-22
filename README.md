@@ -87,6 +87,7 @@ This project was built using these technologies.
 * HTML
 * CSS
 * JavaScript
+* Webpack
 * Chrome Dev Tools
 <br>
 
