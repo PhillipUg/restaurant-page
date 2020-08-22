@@ -1,16 +1,18 @@
-import { createMenu } from './menu.js';
-import { createFooter } from './footer.js';
-import { createNav } from './nav.js';
+import createMenu from './menu';
+import createFooter from './footer';
+import createNav from './nav';
 
-export function init(){
-const content = document.querySelector(".content");
-content.classList.add("pop7");
+function init() {
+  const content = document.querySelector('.content');
+  content.classList.add('pop7');
 
-const footer = createFooter();
-const container = createMenu();
-const navbar = createNav();
+  const footer = createFooter();
+  const container = createMenu();
+  const navbar = createNav();
 
-content.appendChild(navbar);
-content.appendChild(container);
-content.appendChild(footer);
-};
+  content.appendChild(navbar);
+  content.appendChild(container);
+  content.appendChild(footer);
+}
+
+export default init;

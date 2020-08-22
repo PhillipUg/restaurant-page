@@ -1,23 +1,21 @@
-export const createFooter = () => {
+const createFooter = () => {
+  const linksArr = ['Advertise', 'Career', 'Privacy Policy', 'Contact Us'];
 
-  let linksArr = ["Advertise", "Career", "Privacy Policy", "Contact Us"];
+  const footer = document.createElement('footer');
+  footer.classList.add('footer');
 
+  const fb = document.createElement('i');
+  fb.classList.add('fab', 'fa-facebook-f');
+  const tw = document.createElement('i');
+  tw.classList.add('fab', 'fa-twitter');
+  const insta = document.createElement('i');
+  insta.classList.add('fab', 'fa-instagram');
+  const ul = document.createElement('ul');
+  ul.classList.add('links');
 
-  const footer = document.createElement("footer");
-  footer.classList.add("footer");
-
-  const fb = document.createElement("i");
-  fb.classList.add("fab", "fa-facebook-f");
-  const tw = document.createElement("i");
-  tw.classList.add("fab", "fa-twitter");
-  const insta = document.createElement("i");
-  insta.classList.add("fab", "fa-instagram");
-  const ul = document.createElement("ul");
-  ul.classList.add("links");
-
-  for (let i = 0; i < 4; i++) {
-    const li = document.createElement("li");
-    li.classList.add("links-items");
+  for (let i = 0; i < 4; i += 1) {
+    const li = document.createElement('li');
+    li.classList.add('links-items');
     li.innerText = `${linksArr[i]}`;
     ul.appendChild(li);
   }
@@ -28,4 +26,7 @@ export const createFooter = () => {
   footer.appendChild(ul);
 
   return footer;
-}
+};
+
+
+export default createFooter;
