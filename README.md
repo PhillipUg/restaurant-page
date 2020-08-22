@@ -25,7 +25,7 @@ In this project, as a way of practicing DOM manipulation, i dynamically render a
 <br />
 <p align="center">
   <a href="https://github.com/PhillipUg/restaurant-page">
-    <img src="images/food2.png" alt="Logo" width="200" height="150">
+    <img src="dist/images/food2.png" alt="Logo" width="200" height="150">
   </a>
 
   <h1 align="center">Restaurant Page</h1>
