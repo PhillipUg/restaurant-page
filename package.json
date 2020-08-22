@@ -2,7 +2,7 @@
   "name": "restaurant-page",
   "version": "1.0.0",
   "description": "In this project, as a way of practicing DOM manipulation, i dynamically render a simple restaurant homepage by using JavaScript alone to generate the entire contents of the website!",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
