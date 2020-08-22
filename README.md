@@ -34,7 +34,7 @@ In this project, as a way of practicing DOM manipulation, i dynamically render a
     This project is part of the Microverse curriculum and is done as an exercise in the Javascript section.
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/PhillipUg/restaurant-page/tree/restaurant-feature">View Demo</a>
+    <a href="https://phillipug.github.io/restaurant-page/">View Demo</a>
     ·
     <a href="https://github.com/PhillipUg/restaurant-page/issues">Report Bug</a>
     ·
@@ -90,7 +90,7 @@ This project was built using these technologies.
 * Chrome Dev Tools
 
 ## Live Version
-To try it live [click here](https://rawcdn.githack.com/PhillipUg/restaurant-page/tree/restaurant-feature)
+To try it live [click here](https://phillipug.github.io/restaurant-page/)
 
 <!-- CONTACT -->
 
