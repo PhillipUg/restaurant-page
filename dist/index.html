@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Carter+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="content">
+
+  </div>
+
+  <script src="https://kit.fontawesome.com/ae46237ce1.js" crossorigin="anonymous"></script>
+  <script type="module" src="main.js"></script>
+</body>
+<script>
+  function initMap() {
+    var CJs = { lat: 0.3131943, lng: 32.5807114 };
+    var mapOptions = {
+      center: CJs,
+      zoom: 20
+    };
+    var googlemap = new google.maps.Map(document.getElementById("map"), mapOptions);
+    var marker = new google.maps.Marker({
+      position: CJs,
+      map: googlemap
+    });
+  }
+</script>
+<script defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfMwx8dWRyYZVfZZSQwsEPZzQtbBKXZUQ&callback=initMap">
+  </script>
+
+</html>
