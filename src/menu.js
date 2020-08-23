@@ -26,15 +26,15 @@ const createMenu = () => {
 
   const meals = ['Burger King', 'Street Nugget', 'Pompus Pirate', 'Homeless Piper', 'Julius Ceasorous', "Coder's Paradise"];
 
-  for (let i = 1; i < 7; i += 1) {
+  meals.forEach((item, index) => {
     const popItems = document.createElement('div');
     popItems.classList.add('pop-items');
     const popTitle = document.createElement('div');
-    popTitle.classList.add('pop-title', `pop${i}`);
+    popTitle.classList.add('pop-title', `pop${index}`);
     const popInfo = document.createElement('div');
     popInfo.classList.add('pop-info');
     const meal = document.createElement('h3');
-    meal.innerText = `${meals[i - 1]}`;
+    meal.innerText = item;
     const price = document.createElement('p');
     price.innerText = `$${Math.floor(Math.random() * (40 - 20) + 20)}`;
     popInfo.appendChild(meal);
@@ -42,7 +42,7 @@ const createMenu = () => {
     popItems.appendChild(popTitle);
     popItems.appendChild(popInfo);
     popUp.appendChild(popItems);
-  }
+  })
 
   popUp3.appendChild(addressTitle);
   popUp3.appendChild(address);
