@@ -11,12 +11,12 @@ const createNav = () => {
   const tabs = document.createElement('div');
   tabs.classList.add('tabs');
 
-  for (let i = 0, j = tabsArr.length; i < j; i += 1) {
+  tabsArr.forEach((item) => {
     const tab = document.createElement('button');
     tab.classList.add('tab');
-    tab.innerHTML = tabsArr[i];
+    tab.innerHTML = item;
     tabs.appendChild(tab);
-  }
+  })
 
   navbar.appendChild(logoText);
   navbar.appendChild(tabs);

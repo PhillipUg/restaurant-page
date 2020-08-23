@@ -13,12 +13,12 @@ const createFooter = () => {
   const ul = document.createElement('ul');
   ul.classList.add('links');
 
-  for (let i = 0; i < 4; i += 1) {
+  linksArr.forEach((link) => {
     const li = document.createElement('li');
     li.classList.add('links-items');
-    li.innerText = `${linksArr[i]}`;
+    li.innerText = link;
     ul.appendChild(li);
-  }
+  })
 
   footer.appendChild(fb);
   footer.appendChild(tw);

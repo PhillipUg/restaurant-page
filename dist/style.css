@@ -126,35 +126,35 @@ body {
   margin: 10px 10px 10px 0;
 }
 
-.pop1 {
+.pop0 {
   background-image: url('images/fast1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.pop2 {
+.pop1 {
   background-image: url('images/fast2.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.pop3 {
+.pop2 {
   background-image: url('images/fast3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.pop4 {
+.pop3 {
   background-image: url('images/fast4.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.pop5 {
+.pop4 {
   background-image: url('images/fast5.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -167,7 +167,7 @@ body {
   background-position: center;
 }
 
-.pop6 {
+.pop5 {
   background-image: url('images/fast7.jpg');
   background-repeat: no-repeat;
   background-position: center;
